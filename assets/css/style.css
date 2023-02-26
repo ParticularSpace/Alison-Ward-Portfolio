@@ -7,10 +7,11 @@ body {
   /* Style the header */
   header {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-direction: row-reverse;
     align-items: center;
     background-color: #cbbeaa;
-    padding: 20px;
+    padding: 10px;
     color: #fff;
   }
   
@@ -29,6 +30,7 @@ body {
   
   .nav-item {
     margin-right: 20px;
+    display:flex;
   }
   
   .nav-item a {
@@ -39,15 +41,17 @@ body {
   }
   
   .nav-item a:hover {
-    color: #ffcc00;
+    color: #0f0e09;
   }
   
   /* Style the header text */
   .header {
-    font-size: 32px;
+    display: flex;
+    font-size: 35px;
     margin: 0;
   }
-  
+
+
   /* Style the container */
   .container {
     max-width: 800px;
