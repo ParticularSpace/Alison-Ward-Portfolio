@@ -61,6 +61,12 @@ body {
     line-height: 1.5;
     margin-bottom: 30px;
   }
+
+  .titles {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
   
   .work-list li {
     margin-bottom: 30px;
